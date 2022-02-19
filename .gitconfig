@@ -1,0 +1,17 @@
+[user]
+	email = isaac.murtagh@centrapay.com
+	name = Isaac Murtagh
+[color]
+	ui = auto
+[push]
+	default = current
+[alias]
+	rbm = "pull --no-commit --rebase origin master"
+	ca = "commit --amend --no-edit"
+	graph = "log --graph --decorate --all"
+	share = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+	feature = !git fetch && git checkout -b $1 origin/master && git push -u origin
+	changeauth = "commit --amend --author=\"Isaac Murtagh <isaac.murtagh@centrapay.com>\" --no-edit"
+	please = "push --force-with-lease"
+[pull]
+	rebase = true
