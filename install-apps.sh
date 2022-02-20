@@ -14,6 +14,9 @@ brew install node
 brew install zsh
 brew install zsh-completions
 brew install repo
+brew install yarn
+brew install terraform
+brew install jq
 
 # Productivity
 brew install --cask notion
