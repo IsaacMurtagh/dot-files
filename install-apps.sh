@@ -32,3 +32,4 @@ brew install --cask nordvpn
 ./scripts/fzf.sh
 ./scripts/nvm.sh
 ./scripts/oh-my-zsh.sh
+./scripts/vs-code-extentions.sh
