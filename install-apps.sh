@@ -13,6 +13,7 @@ brew install k9s
 brew install node
 brew install zsh
 brew install zsh-completions
+brew install repo
 
 # Productivity
 brew install --cask notion
