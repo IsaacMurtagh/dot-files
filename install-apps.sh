@@ -7,6 +7,7 @@ brew install --cask iterm2
 brew install --cask postman
 brew install --cask nosql-workbench
 brew install docker
+brew install awscli
 brew install kubernetes-cli
 brew install minikube
 brew install k9s
