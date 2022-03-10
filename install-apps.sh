@@ -18,6 +18,7 @@ brew install repo
 brew install yarn
 brew install terraform
 brew install jq
+brew install eksctl
 
 # Productivity
 brew install --cask notion
@@ -32,8 +33,7 @@ brew install --cask zoom
 brew install --cask firefox
 brew install --cask nordvpn
 
-./scripts/zsh-z.sh
-./scripts/fzf.sh
-./scripts/nvm.sh
-./scripts/oh-my-zsh.sh
-./scripts/vs-code-extentions.sh
+for f in scripts/*.sh
+do
+    zsh $f
+done
