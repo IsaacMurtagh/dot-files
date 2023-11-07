@@ -25,6 +25,10 @@ export NVM_DIR="$HOME/.nvm"
 # bashcompinit for using bash completion in zsh
 autoload -U +X bashcompinit && bashcompinit
 
+# Alias python
+alias python="python3"
+alias pip="pip3"
+
 # Aliases for common docker and development workflows
 alias dcu="docker-compose up"
 alias dcr="docker-compose run"
