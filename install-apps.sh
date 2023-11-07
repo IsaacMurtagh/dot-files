@@ -13,12 +13,14 @@ brew install minikube
 brew install k9s
 brew install node
 brew install zsh
+brew install fzf
 brew install zsh-completions
 brew install repo
 brew install yarn
 brew install terraform
 brew install jq
 brew install eksctl
+brew install 1password-cli
 
 # Productivity
 brew install --cask notion
