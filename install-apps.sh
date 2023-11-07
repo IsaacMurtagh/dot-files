@@ -33,8 +33,3 @@ brew install --cask zoom
 brew install --cask firefox
 brew install --cask nordvpn
 brew install --cask readdle-spark
-
-for f in scripts/*.sh
-do
-    zsh $f
-done
