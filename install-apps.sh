@@ -21,6 +21,7 @@ brew install terraform
 brew install jq
 brew install eksctl
 brew install 1password-cli
+brew install --cask obsidian
 
 # Productivity
 brew install --cask notion
