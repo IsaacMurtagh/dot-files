@@ -7,7 +7,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-z)
 
 # Source secrets
-source ~/conf/secrets.sh
+alias ss="source ~/conf/secrets.sh"
 
 # Source the oh-my-zsh configuration
 source $ZSH/oh-my-zsh.sh
