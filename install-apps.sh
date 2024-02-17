@@ -1,13 +1,14 @@
 #!/bin/bash
 set -x
 
-# Programming
+Programming
 brew install --cask visual-studio-code
 brew install --cask iterm2 
 brew install --cask postman
 brew install --cask nosql-workbench
 brew install docker
 brew install awscli
+brew install cfn-lint
 brew install kubernetes-cli
 brew install minikube
 brew install k9s
@@ -23,7 +24,7 @@ brew install eksctl
 brew install 1password-cli
 brew install --cask obsidian
 
-# Productivity
+Productivity
 brew install --cask notion
 brew install --cask slack
 brew install --cask microsoft-office

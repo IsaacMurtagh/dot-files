@@ -1,5 +1,5 @@
 [user]
-	email = isaac.murtagh@centrapay.com
+	email = isaactheomurtagh@gmail.com
 	name = Isaac Murtagh
 [color]
 	ui = auto
@@ -11,7 +11,7 @@
 	graph = "log --graph --decorate --all"
 	share = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
 	feature = !git fetch && git checkout -b $1 origin/master && git push -u origin
-	changeauth = "commit --amend --author=\"Isaac Murtagh <isaac.murtagh@centrapay.com>\" --no-edit"
+	changeauth = "commit --amend --author=\"Isaac Murtagh <isaactheomurtagh@gmail.com>\" --no-edit"
 	please = "push --force-with-lease"
 [pull]
 	rebase = true
